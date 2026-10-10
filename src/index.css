@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --nyaya-navy: #142B4A;
+    --nyaya-teal: #168C88;
+    --nyaya-ivory: #FAF8F3;
+    --nyaya-saffron: #D96B27;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F3;
+    color: #142B4A;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom serif styling for judicial quotes & formal legal headings */
+  .font-serif-legal {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+
+  .font-mono-legal {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbar for mobile drawers & code previews */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(20, 43, 74, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 43, 74, 0.3);
+}

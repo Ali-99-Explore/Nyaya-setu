@@ -1,0 +1,6 @@
+{
+  "name": "Nyaya Setu - Legal Access Platform",
+  "description": "Understand Your Rights. Know Your Next Step. A high-fidelity interactive legal-access mobile prototype designed specifically for Telangana, India, serving Citizens, Lawyers, and Law Students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
